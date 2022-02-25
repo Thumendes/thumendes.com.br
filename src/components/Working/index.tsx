@@ -15,7 +15,7 @@ const WorkingOn = () => {
         backdropFilter="auto"
         backdropBlur="10px"
       >
-        <Heading>To ralando ainda!</Heading>
+        <Heading>Trabalhando ainda!</Heading>
         <Text>Em processo de desenvolvimento 💻💣🤯</Text>
       </VStack>
     </VStack>
