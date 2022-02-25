@@ -2,7 +2,6 @@ import React from "react";
 import { Button, Heading, Stack, Text, VStack } from "@chakra-ui/react";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 import { FiChevronDown } from "react-icons/fi";
-import { Info } from "data/links";
 import LinkPage from "components/Link";
 
 const HeroSection = () => {
