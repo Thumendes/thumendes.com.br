@@ -6,6 +6,7 @@ const WorkingOn = () => {
     <VStack
       rounded="lg"
       bg="repeating-linear-gradient(45deg, #ff0, #ff0 20px, #000 20px, #000 40px)"
+      mb={100}
     >
       <VStack
         rounded="lg"

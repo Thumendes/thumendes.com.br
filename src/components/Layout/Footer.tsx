@@ -1,4 +1,11 @@
-import { Container, Flex, HStack, Text } from "@chakra-ui/react";
+import {
+  Container,
+  Flex,
+  HStack,
+  SimpleGrid,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
 import LinkPage from "components/Link";
 import { IconsData } from "data/links";
 
@@ -12,16 +19,18 @@ const Footer = () => {
   return (
     <Flex backdropFilter="auto" backdropBlur="8px" py={8}>
       <Container maxW="container.xl">
-        <Flex
-          gap={4}
+        <Stack
+          spacing={4}
           align="center"
           direction={["column-reverse", "column-reverse", "row"]}
           justify="space-between"
         >
           <Text>Desenvolvido com 💗 por Arthur Mendes Pereira</Text>
 
-          <HStack>{getLinkButtons()}</HStack>
-        </Flex>
+          <SimpleGrid spacing={2} columns={[3, 4, 5]}>
+            {getLinkButtons()}
+          </SimpleGrid>
+        </Stack>
       </Container>
     </Flex>
   );
